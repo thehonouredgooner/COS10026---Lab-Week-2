@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="COS10026 Web Technology Project Unit Outline">
+    <meta name="keywords" content="COS10026, Web Technology Project, Swinburne University of Technology, Unit Outline">
+    <meta name="author" content="Swinburne University of Technology">
+    <title>COS10026 - Web Technology Project</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 50px 55px;
+            line-height: 1.35;
+            color: #111;
+        }
+        header img {
+            display: block;
+            width: 238px;
+            height: auto;
+            margin: 25px 0 30px 0;
+        }
+        h1 { font-size: 36px; margin: 0 0 12px; }
+        h2 { font-size: 25px; margin: 8px 0; }
+        h3 { font-size: 19px; margin: 25px 0 12px; }
+        hr { border: 0; border-top: 1px solid #555; margin: 28px 0 20px; }
+        p { margin: 0 0 14px; }
+        ol, ul { padding-left: 32px; }
+        li { margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+        th, td { text-align: left; vertical-align: top; padding: 8px; }
+        th { font-weight: bold; }
+        a { color: #0000ee; }
+        footer {
+            border-top: 1px solid #555;
+            margin-top: 80px;
+            padding-top: 18px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Unit Outline</h1>
+        <h2>COS10026</h2>
+        <h2>Web Technology Project</h2>
+
+        <img
+            src="data:image/png;base64,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"
+            alt="Swinburne University of Technology logo"
+        >
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h3>Aims</h3>
+            <p>
+                This project-based unit focuses on developing your skills to build web applications
+                using web technologies. You'll work individually and in teams to tackle real-world
+                web development challenges, building proficiency in selecting and applying suitable
+                tools and techniques. The unit also covers essential aspects of security, ethics,
+                accessibility, and professional communication within web development. Guidance from
+                an academic facilitator will support you in mastering both technical skills and
+                collaborative project management techniques to achieve these objectives.
+            </p>
+        </section>
+
+        <section>
+            <h3>Unit Learning Outcomes</h3>
+            <p>Students who successfully complete this unit can:</p>
+            <ol>
+                <li><strong>ULO1</strong> Identify web technologies' core components and functions to establish a foundational understanding.</li>
+                <li><strong>ULO2</strong> Implement a project plan using project management strategies to organise, prioritise, and monitor tasks effectively in a web development context.</li>
+                <li><strong>ULO3</strong> Apply team frameworks, communicate and work effectively within teams using suitable verbal and technological methods.</li>
+                <li><strong>ULO4</strong> Utilise database query techniques to create, retrieve, update, and delete data according to specific project needs.</li>
+                <li><strong>ULO5</strong> Demonstrate the use of web development technologies to develop functional web applications, incorporating professional ethics, project management skills, and security practices.</li>
+                <li><strong>ULO6</strong> Explain fundamental security principles in web development and demonstrate their implementation in basic applications.</li>
+                <li><strong>ULO7</strong> Assess ethical considerations and security practices in web development, including accessibility and user privacy.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Content</h3>
+            <ul>
+                <li>Core Front-End and Back-End Development</li>
+                <li>Project-Based Learning and Version Control</li>
+                <li>Project Planning and Project Management</li>
+                <li>Web Security, Ethics, and Accessibility</li>
+                <li>Database Query Techniques</li>
+                <li>Professional Communication and Presentation</li>
+                <li>Teamwork Framework</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Assessments Overview</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tasks and Details</th>
+                        <th>Individual or Group</th>
+                        <th>Weighting</th>
+                        <th>Assessment Due Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Lab Exercises (Laboratory Practicals)</td>
+                        <td>Individual</td>
+                        <td>15%</td>
+                        <td>Weekly (Weeks 1 to 5, and 8 to 10)</td>
+                    </tr>
+                    <tr>
+                        <td>2. Applied Web Project Part 1 of 2</td>
+                        <td>Individual &amp; Group</td>
+                        <td>40%</td>
+                        <td>Monday of Week 7</td>
+                    </tr>
+                    <tr>
+                        <td>3. Applied Web Project Part 2 of 2</td>
+                        <td>Individual &amp; Group</td>
+                        <td>45%</td>
+                        <td>Monday of Week 12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <a href="https://www.swinburne.edu.au/">Swinburne University of Technology</a></p>
+        <p>Email: <a href="mailto:your-email@example.com">hyperlinked to your email</a></p>
+    </footer>
+</body>
+</html>
